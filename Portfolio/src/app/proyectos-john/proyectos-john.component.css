@@ -1,0 +1,21 @@
+@media screen and (max-width: 480px){
+    .titulo h1{
+        text-align: center;
+        font-weight: 320;
+        padding: 0.2em 0;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .titulo h1{
+        text-align: left;
+        font-weight: 400;
+    }
+
+    .titulo{
+        width: 100%;
+    }
+
+    
+}
