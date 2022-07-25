@@ -4,7 +4,10 @@
     .home-div{
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        width: 100%;      
+    }
+
+    app-proyectos-john{
         width: 100%;
     }
 }

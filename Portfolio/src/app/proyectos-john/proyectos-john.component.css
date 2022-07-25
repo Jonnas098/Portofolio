@@ -9,13 +9,13 @@
 
 @media screen and (min-width: 1024px) {
     .titulo h1{
-        text-align: left;
+        text-align: center;
+        margin: 1em 0;
         font-weight: 400;
     }
 
     .titulo{
-        width: 100%;
+        width: 100% !important;
     }
 
-    
 }
