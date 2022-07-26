@@ -3,12 +3,14 @@
 @media screen and (max-width: 480px) {
 
     .cuerpo-aside{
+        position: sticky;
+        top: 0;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        background-color: rgba(42, 38, 43, 0.904);
+        background-color: rgb(42, 40, 43);
         color: #fff;
     }
     
@@ -66,7 +68,7 @@
       
       .drop-cont {
         display: none;
-        position: absolute;
+        position: fixed;
         background-color: #f1f1f1;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
