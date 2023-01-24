@@ -7,6 +7,7 @@ import { AsideComponent } from './aside/aside.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProyectosJohnComponent } from './proyectos-john/proyectos-john.component';
 import { AngularProjectsComponent } from './angular-projects/angular-projects.component';
+import { ReactProjectsComponent } from './react-projects/react-projects.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AngularProjectsComponent } from './angular-projects/angular-projects.co
     AsideComponent,
     ProjectsComponent,
     ProyectosJohnComponent,
-    AngularProjectsComponent
+    AngularProjectsComponent,
+    ReactProjectsComponent
   ],
   imports: [
     BrowserModule,
